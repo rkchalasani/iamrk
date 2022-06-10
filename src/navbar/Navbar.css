@@ -1,54 +1,49 @@
-.fontclass1{
-    font-family: 'Roboto', 'sans-serif';
+.fontclass1 {
+  font-family: "Roboto", "sans-serif";
 }
-.nav{
-    height: 8%;
-    width: 90vw;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding-top: 1.5%;
-    padding-left: 4%;
-    padding-right: 6%;
-    padding-bottom: 1.5%;
-    position: fixed;
-    z-index: 99;
-    background:linear-gradient(black,rgba(0, 0, 0, 0)) ;
+.nav {
+  height: 8%;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  padding-top: 1.5%;
+  padding-left: 4%;
+  padding-right: 6%;
+  padding-bottom: 1.5%;
+  position: fixed;
+  z-index: 99;
+  background: linear-gradient(black, rgba(0, 0, 0, 0));
 }
 
-.logo{
-    width: 130px;
-
+.logo {
+  width: 130px;
 }
-.navlinks{
-    flex: 1;
-    /* text-align: right; */
-    /* position: relative; */
-    display: flex;
-    justify-content:flex-end;
-    
+.navlinks {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
-.navlinks ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 20px;
-    text-align: right;
+.navlinks ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: right;
 }
-.navlinks ul li a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 15px;
-    text-align: right;
+.navlinks ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 15px;
+  text-align: right;
 }
-.navlinks ul li a::after{
-    content: '';
-    width: 0%;
-    height: 1px;
-    background:whitesmoke;
-    display: block;
-    margin: auto;
-    transition: 0.35s;
+.navlinks ul li a::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background: whitesmoke;
+  display: block;
+  margin: auto;
+  transition: 0.35s;
 }
-.navlinks ul li a:hover::after{
-    width: 100%;
+.navlinks ul li a:hover::after {
+  width: 100%;
 }

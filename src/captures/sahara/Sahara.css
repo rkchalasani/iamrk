@@ -1,111 +1,73 @@
-.sahmaincontainer{
-    font-family: 'Roboto', sans-serif;
+.sahmaincontainer {
+  font-family: "Roboto", sans-serif;
 }
 .saharamain {
   display: flex;
-  /* flex-direction: column; */
-  /* display: inline-block; */
-  /* width: 100%; */
-
   height: 80vh;
   padding: 50px;
-  /* padding-top: 3%; */
   background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
 }
-.saharatext  {
+.saharatext {
   flex: 1;
   font-size: 2rem;
-  /* align-items:center; */
   text-align: left;
-  /* display: inline-block; */
-
-  /* justify-content: center; */
-  /* display: flex; */
   position: relative;
   top: 35%;
   left: 20px;
 }
-.saharatext p{
-    font-size: 1rem;
+.saharatext p {
+  font-size: 1rem;
 }
-.sahbutton{
-    color: whitesmoke;
-    border: 1px solid white;
-    /* border-radius: 3px ; */
-    font-family: 'Roboto', sans-serif;
-    background-color: transparent;
-    transition: all 0.5s ease;
-    line-height: 20px;
+.sahbutton {
+  color: whitesmoke;
+  border: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  line-height: 20px;
 }
-.sahbutton:hover{
-    /* transform: scale(1.2); */
-    background-color: whitesmoke;
-    color: black;
-    
-
+.sahbutton:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 .saharacard {
   flex: 1;
-  /* top: 200%; */
   align-items: center;
   display: flex;
-  /* justify-content: center; */
 }
 .saharaimg {
-  /* flex: 1; */
-
   width: 700px;
   right: 0%;
   left: 15%;
   position: relative;
   height: 600px;
-  /* display: flex; */
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
-  /* box-sizing: border-box; */
-  /* cursor: pointer; */
-  /* margin: 10px 50px; */
   background: url(../../img/img5.webp);
-  /* background-position: center; */
   background-size: cover;
   transition: all 0.5s ease;
 }
 .srow {
-  /* background-image: linear-gradient(black,black); */
   background-color: whitesmoke;
   height: 100vh;
-  /* position: absolute; */
 }
-.sahp{
+.sahp {
   color: whitesmoke;
 }
-/* h1 {
-  font-size: 3rem;
-  padding: 20px;
- color: black;
-  margin: 0px;
-} */
-.scol1{
-    padding-top: 70px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+.scol1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .scol2 {
   display: flex;
   height: 85vh;
-  /* padding: 15px; */
-
   justify-content: space-around;
-  /* flex-direction: row; */
 }
 
 .scard2 {
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
@@ -118,8 +80,6 @@
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
@@ -132,8 +92,6 @@
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
@@ -143,16 +101,12 @@
   transition: all 0.5s ease;
 }
 
-
-.sahh2{
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    
-    /* font-family: 'Roboto', sans-serif; */
+.sahh2 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
   padding: 20px;
- /* color: rgb(255, 255, 255); */
   margin: 0px;
 }
-.sahh5{
+.sahh5 {
   color: whitesmoke;
 }

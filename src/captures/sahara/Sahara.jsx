@@ -4,8 +4,6 @@ import Follow from "../../follow/Follow";
 function Sahara() {
   return (
     <div className="sahmaincontainer">
-      
-      {/* <Navbar/> */}
       <div className="saharamain">
         <div className="saharatext">
           <h5 className="sahh5">Sahara</h5>
@@ -15,10 +13,7 @@ function Sahara() {
             fuga cupiditate possimus tenetur corrupti illum dolorem sapiente rem
             alias? Odio.
           </p>
-          <button className="sahbutton">
-              Purchase
-          </button>
-         
+          <button className="sahbutton">Purchase</button>
         </div>
         <div className="saharacard">
           <div className="saharaimg"></div>
@@ -31,19 +26,16 @@ function Sahara() {
         <div class="scol2">
           <div class="scard2">
             <h5 className="h5">Cosmos</h5>
-            
           </div>
           <div class="scard3">
-            <h5  className="h5">Light</h5>
-      
+            <h5 className="h5">Light</h5>
           </div>
           <div class="scard4">
-            <h5  className="h5">Camera</h5>
-       
+            <h5 className="h5">Camera</h5>
           </div>
         </div>
-        </div>
-      <Follow/>
+      </div>
+      <Follow />
     </div>
   );
 }

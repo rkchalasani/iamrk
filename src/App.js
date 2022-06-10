@@ -10,6 +10,7 @@ import "./App.css";
 import Main from "./Main";
 import ScrollToTop from "./ScrollToTop";
 import Collections from "./collections/Collections";
+import Shop from "./shop/Shop";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Navbar />
 
         <div>
-        <ScrollToTop />
+          <ScrollToTop />
           <Switch>
             <Route path="/sahara">
               <Sahara />
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/collections">
               <Collections />
+            </Route>
+            <Route path="/shop">
+              <Shop />
             </Route>
 
             <Route path="/">

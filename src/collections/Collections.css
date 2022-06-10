@@ -1,75 +1,58 @@
-  .collgearcard1{
-    width: 700px;
-    height: 600px;
-    padding: 2%;
-  }
-  .collgearcard2{
-    /* width: 500px; */
-    height: 600px;
-    padding: 2%;
-  
-      
-  }
-  .collgearcard3{
-    /* width: 500px; */
-    padding: 2%;
-    height: 600px;
-      
-      
-  }
-  .collgearcard4 img{
-    padding: 2%;
-    height: 600px;
-  }
-  
-  .collgearh1{
-    background-color: whitesmoke;
-      color: black;
-      text-align: center;
-      /* position: absolute; */
-      font-family: "metrolight";
-      font-size: 4rem;
-      padding: 20px;
-      padding-top: 70px;
-      /* padding: 1%; */
-      margin: 0px;
-  }
+.collgearcard1 {
+  width: 700px;
+  height: 600px;
+  padding: 2%;
+}
+.collgearcard2 {
+  height: 600px;
+  padding: 2%;
+}
+.collgearcard3 {
+  padding: 2%;
+  height: 600px;
+}
+.collgearcard4 img {
+  padding: 2%;
+  height: 600px;
+}
 
-  
-  
-  
-  .collgearh5{
-    margin: 0px;
-    font-family: "metrolight";
-    font-size: 1.5rem;
-    /* padding: %; */
-    margin-top: 40px;
-  
-    /* box-shadow: ; */
-    color: black;
-  
-  }
-  .colldiv2{
-    display: flex;
-  
-  }
-  .colldiv1{
-    display: flex;
-  }
-  .collslide3{
-    flex: 1;
-    text-align: center;
-    padding-bottom: 4%;
-  }
-  .collgearp{
-    color: rgb(0, 0, 0);
-  }
+.collgearh1 {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font-family: "metrolight";
+  font-size: 4rem;
+  padding: 20px;
+  padding-top: 70px;
+  margin: 0px;
+}
 
+.collgearh5 {
+  margin: 0px;
+  font-family: "metrolight";
+  font-size: 1.5rem;
+  margin-top: 40px;
+  color: black;
+}
+.colldiv2 {
+  display: flex;
+}
+.colldiv1 {
+  display: flex;
+}
+.collslide3 {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.collgearp {
+  color: rgb(0, 0, 0);
+}
 
-  .collgearbutton{
-    background: linear-gradient(whitesmoke,whitesmoke);
-    border: 1px solid black;
-  }
-  .collmaindiv{
-    background: linear-gradient(whitesmoke,whitesmoke);
-  }
+.collgearbutton {
+  background: linear-gradient(whitesmoke, whitesmoke);
+  border: 1px solid black;
+}
+.collmaindiv {
+  background: linear-gradient(whitesmoke, whitesmoke);
+}

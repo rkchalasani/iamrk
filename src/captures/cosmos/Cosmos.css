@@ -1,116 +1,78 @@
-.cosmaincontainer{
-    font-family: 'Roboto', sans-serif;
+.cosmaincontainer {
+  font-family: "Roboto", sans-serif;
 }
 .cosmain {
   display: flex;
-  /* flex-direction: column; */
-  /* display: inline-block; */
-  /* width: 100%; */
-
   height: 80vh;
   padding: 50px;
-  /* padding-top: 3%; */
   background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
 }
-.costext  {
+.costext {
   flex: 1;
   font-size: 2rem;
-  /* align-items:center; */
   text-align: left;
-  /* display: inline-block; */
-
-  /* justify-content: center; */
-  /* display: flex; */
   position: relative;
   top: 35%;
   left: 20px;
 }
-.costext p{
-    font-size: 1rem;
+.costext p {
+  font-size: 1rem;
 }
-.cosbutton{
-    color: whitesmoke;
-    border: 1px solid white;
-    /* border-radius: 3px ; */
-    font-family: 'Roboto', sans-serif;
-    background-color: transparent;
-    transition: all 0.5s ease;
-    line-height: 20px;
+.cosbutton {
+  color: whitesmoke;
+  border: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  line-height: 20px;
 }
-.cosbutton:hover{
-    /* transform: scale(1.2); */
-    background-color: whitesmoke;
-    color: black;
-    
-
+.cosbutton:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 .coscard {
   flex: 1;
-  /* top: 200%; */
   align-items: center;
   display: flex;
-  /* justify-content: center; */
 }
 .cosimg {
-  /* flex: 1; */
-
   width: 700px;
   right: 0%;
   left: 15%;
   position: relative;
   height: 600px;
-  /* display: flex; */
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
-  /* box-sizing: border-box; */
-  /* cursor: pointer; */
-  /* margin: 10px 50px; */
   background: url(../../img/img6.jpeg);
   background-position: center;
   background-size: cover;
   transition: all 0.5s ease;
 }
 .cosrow {
-  /* background-image: linear-gradient(black,black); */
   background-color: whitesmoke;
   height: 100vh;
-  /* position: absolute; */
 }
-.cosp{
+.cosp {
   color: whitesmoke;
 }
-/* h1 {
-  font-size: 3rem;
-  padding: 20px;
- color: black;
-  margin: 0px;
-} */
-.coscol1{
-    padding-top: 70px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+.coscol1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .coscol2 {
   display: flex;
   height: 85vh;
-  /* padding: 15px; */
-
   justify-content: space-around;
-  /* flex-direction: row; */
 }
 
 .coscard2 {
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
   background: url(../../img/img5.webp);
-  /* background-position: center; */
   background-size: cover;
   transition: all 0.5s ease;
 }
@@ -118,8 +80,6 @@
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
@@ -132,8 +92,6 @@
   width: 600px;
   height: 700px;
   display: inline-block;
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px;
@@ -143,18 +101,14 @@
   transition: all 0.5s ease;
 }
 
-
-.cosh2{
-    color: rgb(0, 0, 0);
-    font-size: 2.5rem;
-    text-align: center;
-    /* font-family: 'Roboto', sans-serif; */
+.cosh2 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  text-align: center;
   padding: 40px;
- /* color: rgb(255, 255, 255); */
   margin: 0px;
 }
-
-.cosh5{
-    text-align: left;
-    color: whitesmoke;
+.cosh5 {
+  text-align: left;
+  color: whitesmoke;
 }

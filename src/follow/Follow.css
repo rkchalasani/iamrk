@@ -1,113 +1,106 @@
-.ficon{
-    color :rgb(245, 245, 245);
-    border: none;
-    display: flex;
-    width :40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  
-    text-decoration: none;
-    margin: 0 0.3rem;
-    transition: all 0.5s ease;
-    display: inline-block;
-  transition: all 0.5s ease;
-    padding: 0.5rem;
-}
-.ficon2{
-  color :rgb(245, 245, 245);
-    border: none;
-    display: flex;
-    width :40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  
-    text-decoration: none;
-    margin: 0 0.3rem;
-    transition: all 0.5s ease;
-    display: inline-block;
-  transition: all 0.5s ease;
-    padding: 0.5rem;
-}
-.ficon3{
-  color :rgb(245, 245, 245);
-    /* border: none; */
-    display: flex;
-    width :40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10%;
-  
-    text-decoration: none;
-    margin: 0 0.3rem;
-    transition: all 0.5s ease;
-    display: inline-block;
-  transition: all 0.5s ease;
-    padding: 0.5rem;
-}
-.ficon4{
-  color :rgb(245, 245, 245);
-    border: none;
-    display: flex;
-    width :40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  
-    text-decoration: none;
-    margin: 0 0.3rem;
-    transition: all 0.5s ease;
-    display: inline-block;
-  transition: all 0.5s ease;
-    padding: 0.5rem;
-}
-.ficon:hover{
-transform: scale(1.2);
+.ficon {
+  color: rgb(245, 245, 245);
+  border: none;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 
-color: #bc2a8d;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+  display: inline-block;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
 }
-.ficon2:hover{
-    transform: scale(1.2);
-    
-    color: #229ED9;
-    }
-.ficon3:hover{
-        transform: scale(1.2);
-        
-        color: #4267B2;
-        }
-.ficon4:hover{
-            transform: scale(1.2);
-            
-            color: #00acee;
-            }
+.ficon2 {
+  color: rgb(245, 245, 245);
+  border: none;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 
-.followdiv{
-    
-    font-size: 35px;
-    /* color: rgb(245, 245, 245); */
-    display: flex;
-    justify-content: center;
-   
-    text-align: center;
-    
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+  display: inline-block;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
 }
-.followmaindiv{
-    background-color: rgb(0, 0, 0);
-    /* background-color: rgb(0, 0, 0); */
-    /* display: flex; */
-    justify-content: center;
-  
-    font-family: 'Roboto', 'sans-serif';
-    text-align: center;
-    padding: 5rem;
-    /* padding: 5rem; */
+.ficon3 {
+  color: rgb(245, 245, 245);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+  display: inline-block;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
 }
-.fh2{
-  color :rgb(245, 245, 245);
+.ficon4 {
+  color: rgb(245, 245, 245);
+  border: none;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+  display: inline-block;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
+}
+.ficon:hover {
+  transform: scale(1.2);
+
+  color: #bc2a8d;
+}
+.ficon2:hover {
+  transform: scale(1.2);
+
+  color: #229ed9;
+}
+.ficon3:hover {
+  transform: scale(1.2);
+
+  color: #4267b2;
+}
+.ficon4:hover {
+  transform: scale(1.2);
+
+  color: #00acee;
+}
+
+.followdiv {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+.followmaindiv {
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+
+  font-family: "Roboto", "sans-serif";
+  text-align: center;
+  padding: 5rem;
+}
+.fh2 {
+  color: rgb(245, 245, 245);
 }

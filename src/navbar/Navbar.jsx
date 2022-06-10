@@ -27,19 +27,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link  smooth={true}>
-                SHOP
-              </Link>
+              <Link to="shop" smooth={true}>SHOP</Link>
             </li>
             <li>
-              <Link smooth={true}>
-                CONTACT
-              </Link>
+              <Link smooth={true}>CONTACT</Link>
             </li>
             <li>
-              <Link smooth={true}>
-                ABOUT
-              </Link>
+              <Link smooth={true}>ABOUT</Link>
             </li>
           </ul>
         </div>

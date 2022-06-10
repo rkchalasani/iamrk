@@ -1,114 +1,99 @@
-.section{
-    background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
-    overflow: hidden;
-    position: relative;
-    display: flex;   
-    height: 100vh;
-    font-family: 'Roboto', 'sans-serif';
-    /* background-size: cover; */
-   /* flex-direction: column; */
-    /* overflow: hidden;
-    position: relative;
-    
-    display: flex; 
-     */
+.section {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  font-family: "Roboto", "sans-serif";
 }
-.sectiontitle{
-    width: 100%;
-    margin-top: 3vh; 
-    margin-bottom: 10vh;
-    font-size: 2rem;
-    text-align: center;
-    
-    color: rgb(245, 245, 245);
-}
-.row{
-    display: flex;
-  /* position: absolute; */
-    margin-top: 3vh; 
-    justify-content: space-around;
-}
-.card{
-    width: 350px;
-    height: 600px;
-    display: flex;
-    border-radius: 10px;
-    /* padding: 15px 25px; */
-    box-sizing: border-box;
-    cursor: pointer;
-    /* position: relative; */
-    margin: 10px 30px;
-    background: url(../img/img5.webp);
-    background-position: center;
-    background-size: cover;
-    transition: all 0.5s ease;
+.sectiontitle {
+  width: 100%;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+  font-size: 2rem;
+  text-align: center;
 
+  color: rgb(245, 245, 245);
+}
+.row {
+  display: flex;
+  margin-top: 3vh;
+  justify-content: space-around;
+}
+.card {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 30px;
+  background: url(../img/img5.webp);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
 }
 
-.card2{
-    width: 350px;
-    height: 600px;
-    display: flex;
-    border-radius: 10px;
-    /* position: relative; */
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 30px;
-    background: url(../img/img6.jpeg);
-    background-position: center;
-    background-size: cover;
-    transition: all 0.5s ease;
+.card2 {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 30px;
+  background: url(../img/img6.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
 }
-.card3{
-    width: 350px;
-    height: 600px;  
-    display: flex;
-    border-radius: 10px;
-    /* position: relative; */
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 30px;
-    background: url(../img/img7.webp);
-    background-position: center;
-    background-size: cover;
-    transition: all 0.5s ease;
+.card3 {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 30px;
+  background: url(../img/img7.webp);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
 }
-.card4{
-    width: 350px;
-    height: 600px;  display: flex;
-    border-radius: 10px;
-    /* position: relative; */
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 30px;
-    background: url(../img/cam2.jpg);
-    background-position: center;
-    background-size: cover;
-    transition: all 0.5s ease;
-    
+.card4 {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 30px;
+  background: url(../img/cam2.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
 }
-.card:hover{
- 
-    transform: scale(1.05);
-    box-shadow: 0 0 20px  rgb(0, 0, 0);    
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-.card2:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px  rgb(0, 0, 0);
+.card2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-.card3:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px  rgb(0, 0, 0);
+.card3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-.card4:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px  rgb(0, 0, 0);
+.card4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-.card p,.card2 p, .card3 p,.card4 p{
-    text-shadow: 0  0 15px #000;
-    font-size: 8px;
+.card p,
+.card2 p,
+.card3 p,
+.card4 p {
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
 }
-
-
-
