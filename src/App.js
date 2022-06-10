@@ -11,6 +11,7 @@ import Main from "./Main";
 import ScrollToTop from "./ScrollToTop";
 import Collections from "./collections/Collections";
 import Shop from "./shop/Shop";
+import About from "./about/About";
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
             <Route path="/shop">
               <Shop />
             </Route>
-
+            <Route path="/about">
+              <About />
+            </Route>
             <Route path="/">
               <Main />
             </Route>
