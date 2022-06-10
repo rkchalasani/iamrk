@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 
 const Captures = () => {
   return (
-    <div id="collections" className="section">
+    <div className="section">
       <div class="sectiontitle">
         <h1>Our Best Captures</h1>
         <div class="row">
