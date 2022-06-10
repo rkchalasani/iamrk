@@ -1,0 +1,9 @@
+.about-container{
+    background: linear-gradient(whitesmoke, whitesmoke);
+    padding-top: 8rem;
+    display: flex;
+}
+
+.about-container img{
+    margin: 2rem;
+}
