@@ -14,7 +14,7 @@ const Gear = () => {
   return (
     <div className="gearmaindiv">
       <div className="gearrow">
-        <h1 className="gearh1">MERCH</h1>
+        <h1 className="gearh1">CHECKOUT OUR LATEST LINE OF MERCH</h1>
         <Swiper
           style={{
             "--swiper-navigation-color": "#fff",
@@ -43,8 +43,6 @@ const Gear = () => {
               <div>
                 <img class="gearcard1" src={cam} alt="" />
               </div>
-              {/* </div>
-          <div className="swiper3b"> */}
               <p className="gearp">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 incidunt odit iure fugiat neque, autem eligendi, quia animi
@@ -64,8 +62,6 @@ const Gear = () => {
               <div>
                 <img class="gearcard2" src={gimbal} alt="" />
               </div>
-              {/* </div>
-          <div className="swiper3b"> */}
               <p className="gearp">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 incidunt odit iure fugiat neque, autem eligendi, quia animi
@@ -81,8 +77,6 @@ const Gear = () => {
               <div>
                 <img class="gearcard3" src={lens} alt="" />
               </div>
-              {/* </div>
-          <div className="swiper3b"> */}
               <p className="gearp">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 incidunt odit iure fugiat neque, autem eligendi, quia animi
@@ -98,8 +92,6 @@ const Gear = () => {
               <div class="gearcard4">
                 <img src={acc} alt="" />
               </div>
-              {/* </div>
-          <div className="swiper3b"> */}
               <p className="gearp">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 incidunt odit iure fugiat neque, autem eligendi, quia animi

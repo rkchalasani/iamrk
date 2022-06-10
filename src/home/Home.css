@@ -1,5 +1,4 @@
 .homefontclass {
-  /* font-family: "Roboto", "sans-serif"; */
   font-family: "metrofont";
 }
 .homemaindiv {
@@ -9,12 +8,12 @@
   align-items: center;
   background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
 }
-.homename{
+.homename {
   font-size: 4rem;
   margin: 1px;
   color: whitesmoke;
 }
-.homep1{
+.homep1 {
   font-family: "cursivefont";
   font-size: 2rem;
   color: whitesmoke;
@@ -29,36 +28,22 @@
 .homep {
   font-size: 1.15rem;
 }
-
-
 .homecard {
   flex: 1;
-  /* top: 200%; */
   align-items: center;
   display: flex;
-  /* justify-content: center; */
 }
 .homeimg {
-  /* flex: 1; */
-
   width: 700px;
   right: 0%;
   left: 15%;
   position: relative;
   height: 600px;
   width: 600px;
-  /* display: flex; */
-  /* border-radius: 10px; */
-  /* padding: 15px 25px; */
-  /* box-sizing: border-box; */
-  /* cursor: pointer; */
-  /* margin: 10px 50px; */
   background: url(https://images.squarespace-cdn.com/content/v1/5c4d7e227e3c3a6ec70a5ac7/1557605820203-LRJN96YJ3HTBHT0ZPCS6/A6540444.jpg?format=750w);
-  /* background-position: center; */
   background-size: cover;
   border: none;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0),
-    /* 10px 10px 70px whitesmoke, */ inset 5px 5px 10px rgb(0, 0, 0),
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), inset 5px 5px 10px rgb(0, 0, 0),
     inset 70px 70px 100px rgb(0, 0, 0), inset -100px -100px 100px rgb(0, 0, 0);
   border-radius: 50%;
   background-position: center;
